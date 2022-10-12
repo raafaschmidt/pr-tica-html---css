@@ -1,0 +1,46 @@
+body{
+    background-image: url(../img/thomas-tastet-hSODeSbvzE0-unsplash-e1623878356320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+.tituloForm{
+    width: 750px;
+    text-align: center;
+    align-items: center;
+}
+
+.form{
+    width: 700px;
+}
+
+.inputSugestao{
+    height: 150px;
+}
+
+
+
+.formCheck{
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+}
+.botao{
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.btn{
+    width: 300px;
+    border: 2px solid rgb(26, 76, 99);
+    border-radius: 15px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(24, 57, 107);
+    color: black;
+    border-radius: 15px;
+}

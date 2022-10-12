@@ -13,7 +13,7 @@ body {
 }
 
 .form {
-  width: 700px;
+  width: 750px;
 }
 
 .inputSugestao {
@@ -43,6 +43,18 @@ body {
   background-color: rgb(24, 57, 107);
   color: black;
   border-radius: 15px;
+}
+
+@media (max-width: 578px) {
+  .form {
+    width: 100%;
+    height: auto;
+  }
+  .tituloForm {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

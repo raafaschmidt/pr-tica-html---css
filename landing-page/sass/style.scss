@@ -1,0 +1,125 @@
+
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    color: white;
+}
+.corText{
+    color: rgba(184, 135, 11, 0.856);
+}
+.text{
+    width: 980px;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text2{
+    margin-top: 50px;
+    
+}
+
+.pro{
+    margin-top: 100px;
+}
+.proMax{
+        margin-top: 78px;
+}
+.imgPro{
+    margin-bottom: 45px;
+}
+.textoPro{
+    width: 325px;
+    text-align: center;
+    color: #a1a1a6;
+    font-size: 17px;
+}
+.textoPro1{
+    width: 325px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #a1a1a6;
+    font-size: 17px;
+}
+.imgProMax{
+    margin-bottom: 45px;
+}
+.divisor{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.textoCapacidade{
+    width: 350px;
+    text-align: start;
+    color: #a1a1a6;
+    font-size: 17px;
+}
+.imgDimensoesPro{
+    width: 287px;
+    height: 120px;
+}
+
+.imgDimensoesProMax{
+    width: 338px;
+    height: 166px;
+}
+.dimPro{
+    margin-top: 125px;
+    width: 350px;
+    
+}
+.dimProMax{
+    width: 350px;
+    height: 120px;
+    margin-top: 78px;
+}
+.imgDescricao{
+    text-align: start;
+}
+.textoTela{
+    width: 37%;
+}
+.descricaoTela1{
+    margin-top: 110px;
+    color: #a1a1a6;
+    font-size: 16px;
+}
+.descricaoTela2{
+    
+    margin-top: 80px;
+    color: #a1a1a6;
+    font-size: 16px;   
+}
+.fontePequena{
+    font-size: 12px;
+}
+.textoModelos{
+    color: #a1a1a6;
+    font-size: 16px;
+}
+.textoRespingos{
+    color: #a1a1a6;
+    font-size: 17px;
+}
+.textoChip{
+    color: #a1a1a6;
+    font-size: 19px;
+}
+.textoCamera{
+    color: #a1a1a6;
+    font-size: 17px;
+}
+.textoVideo{
+    color: #a1a1a6;
+    font-size: 17px;
+}
+.diagramaTexto{
+    width: 50%;
+}
+
+
+@media (max-width: 990px){
+    .container{width: 100%;}
+}

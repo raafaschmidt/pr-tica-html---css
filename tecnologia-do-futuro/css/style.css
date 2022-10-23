@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&family=Montserrat:ital,wght@0,500;1,100&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&family=Libre+Baskerville:ital@1&family=Montserrat:ital,wght@0,500;1,100&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&family=Libre+Baskerville:ital@1&family=Montserrat:ital,wght@0,500;1,100&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,400;1,300&family=Rubik+Dirt&family=Sarina&display=swap");
+body {
+  background-color: black;
+}
+
+.corText {
+  color: white;
+  border-radius: 150px 150px 10px 10px;
+  background-color: rgba(106, 156, 179, 0.199);
+}
+
+.navCor {
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  text-decoration: none;
+  font-family: "Rubik Dirt";
+}
+
+.navItem {
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+.navCor:hover {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.containerNav {
+  margin-left: 25px;
+}
+
+.fonteNavBar {
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  text-decoration: none;
+  font-family: "Rubik Dirt";
+  font-size: 25px;
+}
+
+.fonteNavBar:hover {
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navPag {
+  margin-right: 20px;
+}
+
+.navTamanho {
+  height: 50px;
+}
+
+.imgRobo {
+  border-radius: 5px 0px 0px 0px;
+  width: 100%;
+  height: 400px;
+  padding-left: 15px;
+}
+
+.imgRobo2 {
+  border-radius: 0px 5px 0px 0px;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(106, 156, 179, 0.199);
+}
+
+.contImg {
+  margin-top: 25px;
+}
+
+.section1 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.section2 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.sectionText {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 3px solid white;
+  text-align: center;
+  align-items: center;
+}
+
+.tituloText {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.paragrafoText {
+  font-size: 25px;
+  text-align: justify;
+  color: white;
+}
+
+.imgRobo3 {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  padding-right: 0px;
+}
+
+.imgRobo4 {
+  padding-right: 0px;
+  width: 100%;
+  height: 300px;
+}
+
+.marginImg {
+  margin-bottom: 10px;
+}
+
+.h3Automacao {
+  font-size: 40px;
+  color: white;
+}
+
+.h2Automacao {
+  font-size: 35px;
+  color: white;
+}
+
+.pAutomacao {
+  font-size: 20px;
+  color: white;
+}
+
+.icone {
+  width: 60px;
+  height: 50px;
+}
+
+.icone2 {
+  width: 80px;
+  height: 50px;
+}
+
+.containerTecnologias {
+  background-color: rgba(240, 240, 240, 0.61);
+}
+
+.containerTecnologias2 {
+  background-color: rgba(224, 220, 220, 0.61);
+}
+
+.containerTecnologias3 {
+  background-color: rgba(207, 204, 204, 0.61);
+}
+
+.imgCaminhao {
+  width: 96%;
+  height: 100%;
+}
+
+.imgCaminhao1 {
+  width: 100%;
+  height: 100%;
+}
+
+.marginTransport {
+  padding-left: 30px;
+}
+
+.divTransporte {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.h2Transporte {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+.h4Transporte {
+  font-size: 30px;
+  text-align: center;
+}
+
+.pTransporte {
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+}
+
+.col1 {
+  width: 50%;
+  margin: 0px;
+}
+
+.columns {
+  width: 50%;
+}
+
+.imgGadgets {
+  width: 100%;
+  height: 50%;
+}
+
+.imgGadgetsPadding {
+  padding-bottom: 10px;
+}
+
+.linha {
+  background-color: white;
+  color: white;
+  width: 100%;
+}
+
+.imgFooter {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.imgFooter2 {
+  width: 4%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.redesSociais {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .imgRobo1200px {
+    width: 100%;
+    text-align: center;
+  }
+  .pAutomacao1200px {
+    width: 70%;
+  }
+}
+@media (max-width: 1200px) {
+  .imgRobo1200px {
+    max-width: 600px;
+    text-align: center;
+  }
+  .imgRobo4 {
+    max-width: 600px;
+    text-align: center;
+  }
+  .pAutomacao1200px {
+    width: 60%;
+  }
+  .containerTecnologias {
+    text-align: center;
+  }
+  .containerTecnologias2 {
+    text-align: center;
+  }
+  .containerTecnologias3 {
+    text-align: center;
+  }
+  .imgCaminhao1 {
+    width: 100%;
+    height: 50%;
+  }
+  .imgCaminhao1200px {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .imgFooter {
+    width: 30%;
+  }
+}
+@media (max-width: 990px) {
+  .imgGadgets {
+    padding-bottom: 30px;
+  }
+  .imgGadgets990px {
+    margin-top: 100px;
+  }
+  .imgFooter2 {
+    width: 40px;
+  }
+}
+@media (max-width: 990px) {
+  .imgCaminhao1200px {
+    height: 400px;
+  }
+  .imgCaminhao1 {
+    height: 300px;
+  }
+}
+@media (max-width: 990px) {
+  .dispositivos2 {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 95%;
+  }
+  .sectionText {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .imgRobo {
+    padding-left: 0px;
+  }
+  .imgRobo2 {
+    margin: 0;
+  }
+  .imgRobo1200px {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .dispositivos {
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .imgGadgets {
+    padding-bottom: 10px;
+    padding-right: 0px;
+  }
+  .h3Automacao {
+    font-size: 25px;
+  }
+  .h2Automacao {
+    font-size: 20px;
+  }
+  .pAutomacao {
+    font-size: 15px;
+  }
+  .h2Transporte {
+    font-size: 25px;
+  }
+  .h4Transporte {
+    font-size: 20px;
+  }
+  .pTransporte {
+    font-size: 15px;
+  }
+  .marginTransport {
+    padding-left: 10px;
+  }
+  .pAutomacao1200px {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .marginTransport {
+    padding-left: 0px;
+  }
+  .tituloText {
+    font-size: 25px;
+  }
+  .paragrafoText {
+    font-size: 20px;
+  }
+  .dispositivos {
+    padding-right: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

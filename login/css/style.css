@@ -1,0 +1,80 @@
+@keyframes pan {
+  100% {
+    background-position: 15% 50%;
+  }
+}
+body {
+  background-image: url("../img/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: pan 6s infinite alternate linear;
+}
+
+.login {
+  width: 100%;
+  padding: 70px 30px 44px;
+  border: 2px solid white;
+  border-radius: 24px;
+  padding: 100px;
+  background-color: white;
+}
+
+.h1 {
+  margin: 0 0 12px;
+  font-size: 36px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+.h4 {
+  margin: 0 0 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.input {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+}
+
+.ancora {
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.btn {
+  background-color: #04001c;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #a62988;
+  color: white;
+}
+
+@media (width > 500px) {
+  body {
+    padding: 0;
+  }
+}
+@media (width > 500px) {
+  .login {
+    margin: 0;
+    width: 500px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

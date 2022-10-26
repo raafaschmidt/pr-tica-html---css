@@ -12,10 +12,9 @@ body {
 
 .login {
   width: 100%;
-  padding: 70px 30px 44px;
   border: 2px solid white;
   border-radius: 24px;
-  padding: 100px;
+  padding: 70px 30px 44px;
   background-color: white;
 }
 

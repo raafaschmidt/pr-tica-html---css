@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(247, 243, 243);
+}
+header{
+    color: white;
+    margin: auto;
+    padding-top: 5px;
+}
+.nav{
+    
+    color: white;
+}
+a{
+    color: white;
+}
+.por{
+    text-align: center;
+}
+.navbar-brand{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.imgNav{
+    width: 250px;
+}
+.navBar{
+    width: 100%;
+}
+.nav-item{
+    padding-right: 20px;
+    color: white;
+}
+.section01{
+    padding-top: 5px;
+}
+.imgSection01{
+    width: 100%;
+    height: 650px;
+}
+.section02{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    margin-top: -100px;
+    margin-left: auto;
+}
+footer{
+    background-color: rgb(102, 105, 102);
+    color: white;
+    width: 100%;
+}
+.logoInstagram{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.footerColum1{
+    padding-bottom: 10px;
+}
+.mb-5{
+    margin-bottom: 50px;
+}
+.aFooter{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.logoFace{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.logoTwitter{
+    width: 35px;
+    height: 35px;
+}
+.h4Footer{
+    font-size: 30px;
+}
+
+.imgSec{
+    width: 648px;
+    height: 400px;
+}
+.pSection{
+    text-align: justify;
+}
+.h2Section , .h4Section{
+    text-align: center;
+}
+
+@media (max-width: 1200px){
+    .imgSec{
+        width: 100%;
+    }
+    .imgSection01{
+        height: 400px;
+    }
+    .footer{
+        height: 250px;
+    }
+    .footerColum1{
+        margin-top: 0px ;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .columnFooter{
+        height: 80%;
+    }
+    .monterOlimpo, .matterhorn, .montblanc, .grandteton, .monteroraima{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 576px){
+    .section02{
+        width: 100%;
+    }
+}

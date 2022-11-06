@@ -63,13 +63,18 @@ footer {
 }
 
 .logoInstagram {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
 }
 
 .footerColum1 {
-  padding-bottom: 10px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.footerColumn2 {
+  text-align: center;
 }
 
 .mb-5 {
@@ -79,22 +84,22 @@ footer {
 .aFooter {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .logoFace {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
 }
 
 .logoTwitter {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 
 .h4Footer {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .imgSec {
@@ -110,6 +115,11 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 1900px) {
+  .imgSec {
+    width: 100%;
+  }
+}
 @media (max-width: 1200px) {
   .imgSec {
     width: 100%;
@@ -118,7 +128,7 @@ footer {
     height: 400px;
   }
   .footer {
-    height: 250px;
+    height: 100%;
   }
   .footerColum1 {
     margin-top: 0px;
@@ -134,7 +144,8 @@ footer {
 }
 @media (max-width: 576px) {
   .section02 {
-    width: 100%;
+    width: 95%;
+    padding-left: 3px;
   }
 }
 

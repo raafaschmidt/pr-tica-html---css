@@ -148,7 +148,7 @@ footer {
 }
 @media (max-width: 576px) {
   .section02 {
-    width: 95%;
+    width: 100%;
     padding-left: 3px;
   }
   .footerColumn2 {

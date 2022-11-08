@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(247, 243, 243);
+}
+header{
+    color: white;
+    margin: auto;
+    padding-top: 5px;
+}
+
+footer{
+    background-color: rgb(102, 105, 102);
+    color: white;
+    width: 100%;
+}
+.logoInstagram{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.footerColum1{
+    padding-bottom: 3px;
+    text-align: center;
+    margin-top: 25px;
+}
+.footerColumn2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.aFooter{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.logoFace{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.logoTwitter{
+    width: 30px;
+    height: 30px;
+}
+.h4Footer{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.imgSec{
+    width: 648px;
+    height: 400px;
+}
+.card-title{
+    text-align: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1200px){
+    .footer{
+        height: 100%;
+    }
+    .footerColum1{
+        margin-top: 25px ;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .columnFooter{
+        height: 80%;
+    }
+    
+}
+
+@media (max-width: 576px){
+    }
+    .footerColumn2{
+        margin-top: 10px;
+    }
+

@@ -40,10 +40,11 @@ header {
 
 .section01 {
   padding-top: 5px;
+  text-align: center;
 }
 
 .imgSection01 {
-  width: 100%;
+  width: 80%;
   height: 650px;
 }
 
@@ -180,6 +181,13 @@ footer {
   }
   .footerColumn2 {
     margin-top: 10px;
+  }
+  .imgSec {
+    height: 300px;
+  }
+  .imgSection01 {
+    width: 100%;
+    height: 350px;
   }
 }
 

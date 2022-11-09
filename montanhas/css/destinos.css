@@ -135,13 +135,13 @@ footer {
 }
 
 .imgiconSetaDireita {
-  width: 50px;
-  height: 35px;
+  width: 45px;
+  height: 30px;
   padding-left: 15px;
   margin-bottom: 15px;
 }
 
-a:hover {
+.navBar:hover {
   -webkit-text-stroke: 1px black;
   transition-timing-function: ease-in-out;
 }

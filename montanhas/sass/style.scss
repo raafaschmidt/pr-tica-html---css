@@ -13,6 +13,10 @@ header{
     background: linear-gradient(45deg, #084177, #090909e0);
     transition: 0.5s;
 }
+.navbar:hover{
+    background: linear-gradient(45deg,#090909e0, #084177, );
+    transition: 0.5s;
+}
 .nav{
     
     color: white;
@@ -66,6 +70,9 @@ footer{
     color: white;
     width: 100%;
 }
+footer:hover{
+    background: linear-gradient(45deg,#084177, #090909c7 );
+    transition: 0.5s;}
 .logoInstagram{
     width: 30px;
     height: 30px;
@@ -86,7 +93,7 @@ footer{
 }
 .aFooter{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1rem;
 }
 .logoFace{
@@ -133,7 +140,7 @@ footer{
     margin-bottom: 15px;
 }
 .navBar:hover{
-    -webkit-text-stroke: 0.5px white; 
+    -webkit-text-stroke: 1px white; 
         transition-timing-function: ease-in-out;
 }
 

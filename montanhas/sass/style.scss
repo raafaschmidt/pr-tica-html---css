@@ -57,7 +57,8 @@ header{
     margin-left: auto;
 }
 footer{
-    background-color: rgb(102, 105, 102);
+    background: linear-gradient(45deg, #090909c7, #084177);
+    transition: 0.5s;
     color: white;
     width: 100%;
 }

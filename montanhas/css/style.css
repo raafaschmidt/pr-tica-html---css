@@ -67,7 +67,8 @@ header {
 }
 
 footer {
-  background-color: rgb(102, 105, 102);
+  background: linear-gradient(45deg, rgba(9, 9, 9, 0.7803921569), #084177);
+  transition: 0.5s;
   color: white;
   width: 100%;
 }

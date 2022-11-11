@@ -1,11 +1,16 @@
 body {
-  background-color: rgb(247, 243, 243);
+  background-color: rgb(224, 218, 218);
 }
 
 header {
   color: white;
   margin: auto;
   padding-top: 5px;
+}
+
+.navbar {
+  background: linear-gradient(45deg, #084177, rgba(9, 9, 9, 0.8784313725));
+  transition: 0.5s;
 }
 
 .nav {
